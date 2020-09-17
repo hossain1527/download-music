@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: teal;
+  font-family: Clearface ITC W01, Georgia, Times New Roman, Times, serif;
+}
+
+header {
+  text-align: center;
+  padding-top: 20px;
+  font-family: "Kurale", serif;
+  font-weight: bolder;
+  font-size: 30;
+}
+.row {
+  width: 100%;
+  padding-top: 170;
+  padding-left: 200;
+}
+
+.col-lg-6 {
+  width: 45%;
+}
+
+#btn {
+  margin-left: 30;
+}
+
+#id1 {
+  writing-mode: vertical-rl;
+  font-size: 22;
+  letter-spacing: 0.6em;
+  padding-left: 50;
+  padding-top: 20;
+}
+
+@media (min-width: 1200px) {
+  .col-lg-1,
+  .col-lg-2,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-5,
+  .col-lg-6,
+  .col-lg-7,
+  .col-lg-8,
+  .col-lg-9,
+  .col-lg-10,
+  .col-lg-11,
+  .col-lg-12 {
+    /*float: left;*/
+
+    float: left;
+  }
+}
+
+button {
+  background-color: rgb(0, 180, 214);
+  border: 0x 15px;
+  font-size: 15;
+  cursor: pointer;
+  padding: 3px 8px;
+  margin: 10;
+  width: 150px;
+  height: 40px;
+  border-radius: 18px;
+}
+
+hr {
+  padding-top: 50;
+  border: none;
+
+  border-bottom: 1px solid white;
+  width: 90%;
+}
+.fa {
+  padding-top: 70px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
